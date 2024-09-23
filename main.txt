@@ -10,5 +10,6 @@ return 0;printf(&quot;Hello world!\n&quot;);	char name[255];
 	printf(&quot;length = %d\n&quot;, strlen(name)); /* debug line */
 	name[strlen(name)-1] = &#39;\0&#39;; /* remove the newline at the end */
 	printf(&quot;Hello %s!\n&quot;, name);
-	return 0;
+	return 0;б
 }
++++
